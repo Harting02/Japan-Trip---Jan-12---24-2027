@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan, Winter Line</title>
+<meta name="description" content="Japan trip itinerary, 13–24 January 2027">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Trip itinerary</p>
+    <h1 id="hero-title">Japan, Winter Line<span class="hero-kanji">日本</span></h1>
+    <p class="hero-subtitle" id="hero-subtitle"></p>
+    <p class="hero-dates" id="hero-dates"></p>
+  </div>
+</header>
+
+<div class="board-wrap">
+  <div class="board" id="board-outbound"></div>
+  <div class="board" id="board-return"></div>
+</div>
+
+<main class="line-section">
+  <h2 class="line-heading">The route</h2>
+  <div class="route" id="route"></div>
+</main>
+
+<section class="notes-section">
+  <h2 class="notes-heading">Before you go</h2>
+  <ul class="notes-list" id="notes-list"></ul>
+</section>
+
+<footer>Edit js/data.js to update dates, stops, or notes.</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
