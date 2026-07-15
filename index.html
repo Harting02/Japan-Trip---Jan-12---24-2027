@@ -4,18 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Japan, Winter Line</title>
-<meta name="description" content="Japan trip itinerary, 13–24 January 2027">
+<meta name="description" content="Japan trip itinerary and budget, 13–24 January 2027">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script>document.write('<link rel="stylesheet" href="css/styles.css?v=' + Date.now() + '">');</script>
+<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
 </head>
 <body>
 
 <nav class="site-nav">
   <div class="site-nav-inner">
-    <a class="site-nav-link is-active" href="index.html">Trip plan</a>
-    <a class="site-nav-link" href="budget.html">Budget</a>
+    <a class="site-nav-link" href="#itinerary">Itinerary</a>
+    <a class="site-nav-link" href="#budget">Budget</a>
   </div>
 </nav>
 
@@ -34,7 +35,7 @@
 </div>
 
 <main class="line-section">
-  <h2 class="line-heading">The route</h2>
+  <h2 class="line-heading" id="itinerary">The route</h2>
   <div class="route" id="route"></div>
 </main>
 
@@ -43,11 +44,41 @@
   <ul class="notes-list" id="notes-list"></ul>
 </section>
 
-<footer>Edit js/data.js to update dates, stops, or notes.</footer>
+<section class="budget-section" id="budget">
+  <h2 class="line-heading">Budget</h2>
+
+  <div class="pax-control">
+    <span class="pax-label">Pax</span>
+    <button class="pax-btn" id="pax-minus" type="button" aria-label="Remove pax">&minus;</button>
+    <span class="pax-count" id="pax-count">4</span>
+    <button class="pax-btn" id="pax-plus" type="button" aria-label="Add pax">+</button>
+  </div>
+
+  <div class="kpi-grid" id="kpi-grid"></div>
+
+  <h3 class="budget-subheading">Breakdown</h3>
+  <div class="charts-row">
+    <div class="chart-card" id="chart-donut"></div>
+    <div class="chart-card" id="chart-pax"></div>
+  </div>
+
+  <h3 class="budget-subheading">Budget by category</h3>
+  <div id="progress-bars"></div>
+
+  <h3 class="budget-subheading">Details</h3>
+  <div class="expanders" id="expanders"></div>
+
+  <h3 class="budget-subheading">Budget notes</h3>
+  <ul class="notes-list" id="budget-notes-list"></ul>
+</section>
+
+<footer>Edit js/data.js for the itinerary, js/budget-data.js for the budget.</footer>
 
 <script>
   document.write('<script src="js/data.js?v=' + Date.now() + '"><\/script>');
   document.write('<script src="js/app.js?v=' + Date.now() + '"><\/script>');
+  document.write('<script src="js/budget-data.js?v=' + Date.now() + '"><\/script>');
+  document.write('<script src="js/budget.js?v=' + Date.now() + '"><\/script>');
 </script>
 </body>
 </html>

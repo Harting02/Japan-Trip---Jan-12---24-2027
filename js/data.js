@@ -192,6 +192,6 @@ const TRIP = {
     "Language: major stations, menus, and signage have enough English; Google Translate's camera mode covers the rest.",
     "January cold: layers needed. Kyoto/Osaka ~5–10°C daytime; Nagano/Hakone colder with snow. Grippy shoes for the Jigokudani trail.",
     "Book ahead: Hakone ryokan, Shibu Onsen ryokan, and any teamLab tickets — January is peak onsen season.",
-    "Costs: see the Budget page for the full transport, accommodation, and food breakdown, adjustable by pax."
+    "Costs: see the Budget section below for the full transport, accommodation, and food breakdown, adjustable by pax."
   ]
 };

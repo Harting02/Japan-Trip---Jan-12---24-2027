@@ -74,11 +74,6 @@ a { color: inherit; }
 
 .site-nav-link:hover { color: #f4f2ec; }
 
-.site-nav-link.is-active {
-  color: #f4f2ec;
-  border-bottom-color: var(--vermillion);
-}
-
 /* ---------------- Hero / header ---------------- */
 
 .hero {
@@ -142,15 +137,6 @@ a { color: inherit; }
   font-size: 0.9rem;
   color: var(--gold);
   letter-spacing: 0.04em;
-}
-
-.hero-compact {
-  padding: 3rem 1.5rem 2.5rem;
-}
-
-.hero-compact .hero-subtitle {
-  color: #c8cbe0;
-  max-width: 60ch;
 }
 
 /* ---------------- Flight boards ---------------- */
@@ -466,12 +452,19 @@ footer {
   letter-spacing: 0.05em;
 }
 
-/* ---------------- Budget page ---------------- */
+/* ---------------- Budget section ---------------- */
 
-.budget-wrap {
+.budget-section {
   max-width: 880px;
   margin: 0 auto;
-  padding: 2rem 1.5rem 1rem;
+  padding: 1rem 1.5rem 4rem;
+}
+
+.budget-subheading {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--ink);
+  margin: 2.2rem 0 1rem;
 }
 
 .pax-control {
