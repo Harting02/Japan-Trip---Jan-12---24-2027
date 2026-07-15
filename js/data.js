@@ -3,7 +3,7 @@
 
 const TRIP = {
   title: "Japan, Winter Line",
-  subtitle: "Kuching → Tokyo → Hakone → Nagano → Kyoto → Nara → Osaka → Tokyo → Kuching",
+  subtitle: "Kuching → Tokyo → Nagano → Kyoto → Nara → Osaka → Tokyo → Kuching",
   dateRange: "13 – 24 January 2027",
 
   outbound: {
@@ -67,43 +67,32 @@ const TRIP = {
       ]
     },
     {
-      city: "Hakone",
-      kanji: "箱根",
-      nights: "Jan 16",
-      nightCount: 1,
+      city: "Nagano",
+      kanji: "長野",
+      nights: "Jan 16 – 17",
+      nightCount: 2,
       days: [
         {
           date: "Jan 16",
-          label: "Volcanic valley & lake",
+          label: "Tokyo to Yudanaka",
           items: [
-            "Morning train via Odakyu Romancecar",
-            "Owakudani — volcanic valley walk, Fuji views if clear, try the black eggs",
-            "Afternoon: Lake Ashi pirate-ship cruise",
-            "Overnight: onsen ryokan, kaiseki dinner + soak"
-          ]
-        }
-      ]
-    },
-    {
-      city: "Nagano",
-      kanji: "長野",
-      nights: "Jan 17",
-      nightCount: 1,
-      days: [
-        {
-          date: "Jan 17",
-          label: "Snow monkeys & onsen town",
-          items: [
-            "Short lakeside/shrine hike near Hakone in the morning",
-            "Train to Nagano / Yudanaka",
+            "Direct Shinkansen from Tokyo to Nagano, then local line to Yudanaka",
+            "Check in to onsen ryokan, kaiseki dinner",
             "Evening: stroll through Shibu Onsen — 9 historic public bathhouses"
           ]
         },
         {
-          date: "Jan 18",
-          label: "Jigokudani, then Kyoto",
+          date: "Jan 17",
+          label: "Snow monkeys & onsen soak",
           items: [
-            "Early hike into Jigokudani Snow Monkey Park (~25 min through snowy forest)",
+            "Early morning: hike into Jigokudani Snow Monkey Park (~25 min through snowy forest, wild monkeys in hot springs)",
+            "Afternoon: free time — soak in the ryokan's onsen or explore Yudanaka town"
+          ]
+        },
+        {
+          date: "Jan 18",
+          label: "Travel to Kyoto",
+          items: [
             "Train to Kyoto via Nagoya (scenic Kiso Valley route)"
           ]
         }
@@ -190,8 +179,8 @@ const TRIP = {
   notes: [
     "Luggage forwarding (takkyubin): forward big suitcases hotel-to-hotel, carry only a day bag on travel days.",
     "Language: major stations, menus, and signage have enough English; Google Translate's camera mode covers the rest.",
-    "January cold: layers needed. Kyoto/Osaka ~5–10°C daytime; Nagano/Hakone colder with snow. Grippy shoes for the Jigokudani trail.",
-    "Book ahead: Hakone ryokan, Shibu Onsen ryokan, and any teamLab tickets — January is peak onsen season.",
+    "January cold: layers needed. Kyoto/Osaka ~5–10°C daytime; Nagano colder with snow. Grippy shoes for the Jigokudani trail.",
+    "Book ahead: Shibu Onsen ryokan and any teamLab tickets — January is peak onsen season.",
     "Costs: see the Budget section below for the full transport, accommodation, and food breakdown, adjustable by pax."
   ]
 };
