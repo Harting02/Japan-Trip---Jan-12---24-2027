@@ -188,10 +188,10 @@ const TRIP = {
   ],
 
   notes: [
-    "JR Pass: with this many long-distance legs, price out a 7- or 14-day JR Pass before buying individual tickets.",
     "Luggage forwarding (takkyubin): forward big suitcases hotel-to-hotel, carry only a day bag on travel days.",
     "Language: major stations, menus, and signage have enough English; Google Translate's camera mode covers the rest.",
     "January cold: layers needed. Kyoto/Osaka ~5–10°C daytime; Nagano/Hakone colder with snow. Grippy shoes for the Jigokudani trail.",
-    "Book ahead: Hakone ryokan, Shibu Onsen ryokan, and any teamLab tickets — January is peak onsen season."
+    "Book ahead: Hakone ryokan, Shibu Onsen ryokan, and any teamLab tickets — January is peak onsen season.",
+    "Costs: see the Budget page for the full transport, accommodation, and food breakdown, adjustable by pax."
   ]
 };
